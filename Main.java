@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        // Instansiasi objek BukuFiksi
+        
         BukuFiksi bukuFiksi = new BukuFiksi("Harry Potter", "J.K. Rowling", "Fantasy");
         bukuFiksi.infoBuku();
 
