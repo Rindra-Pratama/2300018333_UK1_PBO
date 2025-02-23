@@ -1,7 +1,7 @@
 public class Petugas extends Anggota {
     private String shiftKerja;
 
-    // Constructor overloading
+   
     public Petugas() {
         super("Tidak Diketahui", "Tidak Diketahui");
         this.shiftKerja = "Pagi";
@@ -12,7 +12,7 @@ public class Petugas extends Anggota {
         this.shiftKerja = shiftKerja;
     }
 
-    // Getter dan Setter
+  
     public String getShiftKerja() {
         return shiftKerja;
     }
@@ -21,14 +21,14 @@ public class Petugas extends Anggota {
         this.shiftKerja = shiftKerja;
     }
 
-    // Overriding method
+
     @Override
     public void infoAnggota() {
         super.infoAnggota();
         System.out.println("Shift Kerja: " + shiftKerja);
     }
 
-    // Method tambahan
+   
     public void melayani() {
         System.out.println("Petugas " + getNama() + " sedang melayani.");
     }
