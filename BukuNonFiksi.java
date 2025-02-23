@@ -1,18 +1,18 @@
 public class BukuNonFiksi extends Buku {
     private String bidang;
 
-    // Constructor overloading
+
     public BukuNonFiksi() {
-        super(); // Memanggil constructor dari kelas induk
+        super(); 
         this.bidang = "Tidak Diketahui";
     }
 
     public BukuNonFiksi(String judul, String penulis, String bidang) {
-        super(judul, penulis); // Memanggil constructor dari kelas induk
+        super(judul, penulis); 
         this.bidang = bidang;
     }
 
-    // Getter dan Setter
+   
     public String getBidang() {
         return bidang;
     }
@@ -21,10 +21,10 @@ public class BukuNonFiksi extends Buku {
         this.bidang = bidang;
     }
 
-    // Overriding method
+   
     @Override
     public void infoBuku() {
-        super.infoBuku(); // Memanggil method dari kelas induk
+        super.infoBuku(); 
         System.out.println("Bidang: " + bidang);
     }
 }
