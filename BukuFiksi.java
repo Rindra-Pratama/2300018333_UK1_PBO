@@ -1,9 +1,9 @@
 public class BukuFiksi extends Buku {
     private String genre;
 
-    // Constructor overloading
+   
     public BukuFiksi() {
-        super(); // Memanggil constructor dari kelas induk
+        super(); 
         this.genre = "Fiksi Umum";
     }
 
