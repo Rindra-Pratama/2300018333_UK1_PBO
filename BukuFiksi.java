@@ -8,11 +8,11 @@ public class BukuFiksi extends Buku {
     }
 
     public BukuFiksi(String judul, String penulis, String genre) {
-        super(judul, penulis); // Memanggil constructor dari kelas induk dengan parameter
+        super(judul, penulis); 
         this.genre = genre;
     }
 
-    // Getter dan Setter
+   
     public String getGenre() {
         return genre;
     }
@@ -21,10 +21,10 @@ public class BukuFiksi extends Buku {
         this.genre = genre;
     }
 
-    // Overriding method
+   
     @Override
     public void infoBuku() {
-        super.infoBuku(); // Memanggil method dari kelas induk
+        super.infoBuku(); 
         System.out.println("Genre: " + genre);
     }
 }
