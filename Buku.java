@@ -2,7 +2,7 @@ public class Buku {
     private String judul;
     private String penulis;
 
-    // Constructor overloading
+ 
     public Buku() {
         this.judul = "Tidak Diketahui";
         this.penulis = "Tidak Diketahui";
