@@ -13,7 +13,7 @@ public class Buku {
         this.penulis = penulis;
     }
 
-    // Getter dan Setter
+    
     public String getJudul() {
         return judul;
     }
@@ -30,7 +30,7 @@ public class Buku {
         this.penulis = penulis;
     }
 
-    // Method yang bisa di-override
+  
     public void infoBuku() {
         System.out.println("Judul: " + judul + ", Penulis: " + penulis);
     }
